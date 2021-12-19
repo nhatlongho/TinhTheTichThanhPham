@@ -34,19 +34,22 @@ namespace TinhTheTichThanhPham
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(88, 39);
+            this.simpleButton1.Location = new System.Drawing.Point(132, 57);
+            this.simpleButton1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(75, 23);
+            this.simpleButton1.Size = new System.Drawing.Size(112, 34);
             this.simpleButton1.TabIndex = 0;
             this.simpleButton1.Text = "simpleButton1";
             this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(596, 293);
+            this.ClientSize = new System.Drawing.Size(890, 428);
             this.Controls.Add(this.simpleButton1);
+            this.Font = new System.Drawing.Font("Times New Roman", 12F);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
